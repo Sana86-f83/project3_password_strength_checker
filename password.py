@@ -21,6 +21,10 @@ st.markdown(
         background-image: url("data:image/jpg;base64,{background_image}");
         background-size: cover;
         background-position: center;
+
+    }}
+    h1, p, label{{
+    color: white !important;
     }}
     .gradient-text {{
         background: linear-gradient(90deg,#FF4500, #FFA500, #FF4500); /* Orange gradient */
@@ -75,6 +79,10 @@ st.markdown(
         cursor: pointer;
         transition: 0.2s;
     }}
+     .markdown-text {{
+            color: white;
+    }}
+
 
     .stButton>button:hover {{
         background: linear-gradient(90deg, #FFA500, #FF4500);
@@ -102,11 +110,22 @@ st.markdown(
             min-height: auto;
             padding: 15px;
             position: absolute;
+            color:white;
         }
     }
     </style>
     """,
     unsafe_allow_html=True,
+)
+st.markdown(
+    """
+    <style>
+        h3 {
+            color: white !important;
+        }
+    </style>
+    """, 
+    unsafe_allow_html=True
 )
 
 
