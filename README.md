@@ -1,4 +1,4 @@
-🔐 Project 02: Password Strength Meter
+🔐 Project 03: Password Strength Meter
 📌 Objective
 Build a Password Strength Meter in Python that evaluates a user's password based on security rules. The program will:
 
